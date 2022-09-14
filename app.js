@@ -64,6 +64,7 @@ function deleteTodo(e) {
     }
 }
 
+//Filter Function
 function filterTodo(e) {
     const todos = todoList.childNodes;
     todos.forEach(function (todo) {
@@ -88,6 +89,7 @@ function filterTodo(e) {
     });
 }
 
+//Save Function
 function saveLocalTodos(todo) {
     let todos;
     if (localStorage.getItem("todos") === null) {
@@ -110,6 +112,7 @@ function removeLocalTodos(todo) {
     localStorage.setItem("todos", JSON.stringify(todos));
 }
 
+//Get Function
 function getTodos() {
     let todos;
     if (localStorage.getItem("todos") === null) {
