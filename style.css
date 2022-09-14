@@ -28,7 +28,6 @@ form input,
 form button {
     padding: 0.5rem;
     font-size: 2rem;
-    border-radius: 3px;
     border: none;
     background: white;
 }
@@ -36,7 +35,6 @@ form button {
 form button {
     color: #20465E;
     background: #f7fffe;
-    border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
